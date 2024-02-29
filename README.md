@@ -1,5 +1,7 @@
 # cargo-deb Runner
 
+[![Tests Status](https://github.com/sanders41/cargo-deb-runner/actions/workflows/testing.yml/badge.svg?branch=main&event=push)](https://github.com/sanders41/cargo-deb-runner/actions?query=workflow%3ATesting+branch%3Amain+event%3Apush)
+
 This Docker image builds `deb` packages from Rust projects using
 [cargo-deb](https://github.com/kornelski/cargo-deb).
 
