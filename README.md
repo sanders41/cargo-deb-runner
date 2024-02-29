@@ -13,7 +13,7 @@ docker build -t cargo-deb-runner .
 
 ### Creating the `deb` package
 
-To build the `deb` package run the docker image from withing the root directory of the Rust project,
+To build the `deb` package run the docker image from within the root directory of the Rust project,
 mounting the directory as a volume. This will create the `deb` package in the `target/debian`
 directory.
 
