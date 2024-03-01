@@ -18,6 +18,8 @@ RUN : \
   && apt-get install -y --no-install-recommends \
   build-essential \
   ca-certificates \
+  libssl-dev \
+  pkg-config \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* \
   && curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
